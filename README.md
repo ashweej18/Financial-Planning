@@ -15,8 +15,24 @@ To create two financial tools:
 
 ---
 ### **Steps**
+**Part 1: Personal Finance Planner**
+
+1. Using the **Alternative Free Crypto API** to get the current value of Bitcoin and Ethereum and calculate the value of crypto
+2. Using the **Alpaca Markets API** get the value of stock ('SPY') and bonds ('AGG') and compute the current value
 
 
+**Part 2: Savings Health Analysis**
+
+1. Assumming Monthly Income of $12000, calculate Saving = Value of Crypto portfolio and Value of Stock & Bond portfolio
+2. Compare Savings with Emergency Fund ( assumed as 3 times of Monthly Income) and assess whether savings are sufficient
+
+**Part 3 : Retirement Planning**
+
+1.  Run MonteCarlo Simulation for 30 years on the portfolio of 40/60 Bond-stock portfolio consisting of AGG and SPY
+2. Display simulation results and Plot Cumulative Returns 
+3. Run MonteCarlo Simulation for 5 years the portfolio of 40/60 Bond-stock portfolio consisting of AGG and SPY
+4. Display 5 year simulation results
+5. Similarly Run simulation for 10 years for the same portfolio and display 10 year simulation results
 
 
 ---
@@ -37,7 +53,7 @@ Historical Data required is sourced from **Alpaca Markets API** and **Alternativ
 
 ### **Code**
 * [Main ](financial-planner.ipynb)
-* [Python Module](MCForecastTools.py)
+* [Python Module for MonteCarlo Simulation](MCForecastTools.py)
 
 --
 
